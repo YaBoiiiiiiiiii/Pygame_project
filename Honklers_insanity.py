@@ -9,13 +9,13 @@ control = None  #Variable globale
 
 pygame.init()
 ecran = pygame.display.set_mode((1600,900))
-pygame.display.set_caption("Honkler's insanity")
+pygame.display.set_caption("Pygame project")
 fps = pygame.time.Clock() #Limite l'ordinateur a ne pas depasser 30 boucles par secondes
 ui = [] #list str ; traque les frappes du joueur pour chaque frame (=100/30 sec)
 
 tir = pygame.mixer.Sound("bruitage/pewpew.wav")
 tir_timer = 1
-musique = pygame.mixer.Sound("bruitage/jeu4.wav") 
+musique = pygame.mixer.Sound("bruitage/jingle.wav") 
 musique_timer = 0
 saut = pygame.mixer.Sound("bruitage/saut.wav")
 
